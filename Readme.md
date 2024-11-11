@@ -1,3 +1,11 @@
+archlinux使用python的包管理方式
+TL;DR: Use a venv:
+
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+
+
 # Instruction to Setup
 1. conda env create -f environment.yml or pip install -r requirements.txt
 2. source activate epub
