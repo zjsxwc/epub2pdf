@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 from weasyprint import HTML, CSS, default_url_fetcher
-from weasyprint.fonts import FontConfiguration
+#from weasyprint.fonts import FontConfiguration
+from weasyprint.text.fonts import FontConfiguration
 from os import listdir
 import sys
 import shutil
