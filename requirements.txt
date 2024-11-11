@@ -15,5 +15,9 @@ Pyphen==0.9.5
 six==1.15.0
 soupsieve==2.0.1
 tinycss2==1.0.2
-WeasyPrint==51
-webencodings==0.5.1
+lxml
+cffi
+Pillow
+bs4
+WeasyPrint
+webencodings
